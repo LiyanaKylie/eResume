@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+<style>
+body 
+    {
+        font-family: Arial, sans-serif;
+        margin: 30;
+        background-color: #afa590;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    nav {
+        background-color: #cdb891;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 10;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav li {
+        float: left;
+    }
+    
+    nav a {
+        display: block;
+        color: #333;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        background-color: #f7e7ce;
+        color: #333;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    
+    .footer {
+  padding: 10px;
+  text-align: center;
+  background: #cdb891;
+  color: #2e2e2e;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style> 
+
+<body>
+    <nav>
+        <ul>
+            <b>
+                <li><a class="active" href="index.html">Homepage</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+              </b>
+        </ul>
+    </nav>
+
+
+<center><h1>E-RESUME</h1></center>
+
+    <div class="row">
+        <div class="main">
+            <center><a href="https://uitm.edu.my/index.php/en/" target="_blank">
+                <img src="photos/logo.png" width="160.0" height="67.5"></a></center>
+
+          <center><h4>COLLEGE OF COMPUTING, INFORMATICS AND MATHEMATICS<br>BACHELOR OF INFORMATION SCIENCE (HONS) RECORDS MANAGEMENT (IMR246)<br>IMS456 : BASIC WEB DESIGN AND CONTENT MANAGEMENT</h4>
+          <h4>INDIVIDUAL ASSIGNMENT</h4>
+          <p>E-RESUME WEBSITE</p>
+          <h4>PREPARED BY:</h4>
+          <p>NURLIYANA PUTRI BINTI RAHMAN (2022815042)</p>
+          <h4>GROUP:</h4>
+          <p>ELEK A</p>
+          <h4>SUBMISSION DATE:</h4>
+          <p>11 JANUARY 2024</p></center>
+        </div>
+      </div>
+
+      <div class="footer">
+        <h4>© 2023 Nurliyana Putri's Resume. All Rights Reserved.</h4>
+        <h5>This website are for the purpose of assignment on HTML only.<br>Recommended browser Google Chrome.<br>Resolution 1366 X 768.</h5>
+        <h4>Last updated : </h4>
+          <p id="demo"></p>
+          <script>
+          let text = document.lastModified;
+          document.getElementById("demo").innerHTML = text;
+          </script>
+          
+      </div>
+</body> 
+</html>
+

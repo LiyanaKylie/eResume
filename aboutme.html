@@ -1,0 +1,178 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+<style>
+body 
+    {
+        font-family: Arial, sans-serif;
+        margin: 30;
+        background-color: #eeecda;
+    }
+    
+    header {
+        background-color: #cdb891;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    nav {
+        background-color: #cdb891;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 10;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav li {
+        float: left;
+    }
+    
+    nav a {
+        display: block;
+        color: #333;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        background-color: #f7e7ce;
+        color: #333;
+    }
+
+    .navbar {
+  overflow: hidden;
+  background-color: #afa590;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+    .navbar a {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+    .navbar a.right {
+  float: right;
+}    
+
+nav a:hover {
+        background-color: #f7e7ce;
+        color: #333;
+    }
+    .navbar a.active {
+  background-color: #afa590;
+  color: rgb(0, 0, 0);
+}
+
+    .row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+    .main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color:#afa590;
+  padding: 20px;
+}
+
+
+    .footer {
+  padding: 10px;
+  text-align: center;
+  background: #cdb891;
+  color: #2e2e2e;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style> 
+
+<style>body {background-image: url(photos/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover}
+    </style>
+
+<body>
+  <nav>
+        <ul>
+          <b>
+            <li><a class="active" href="index.html">Homepage</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="experiences.html">Experiences</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+          </b>
+        </ul>
+    </nav>
+
+<center><a href="https://cdn.uitm.edu.my/gambar_warga/b646b7339fd70fae48e8b394f82b1c21.png" target="_blank">
+    <img src="photos/matrix.jpg" width="200.0" height="250.0"></a></center>
+
+        <div class="row">
+  <div class="main">
+    <center><h2>IDENTITY DETAILS</h2>
+    <p>Name : Nurliyana Putri Binti Rahman</p>
+    <p>Date of Birth: 07 January 2001</p>
+    <p>Gender : Female</p>
+    <p>Nationality : Malaysian</p>
+    <p>Race : Malay</p>
+    <p>Region: Selangor, Malaysia</p>
+    <p>Status: Single</p>
+    <p>Language: Malay, English, Mandarin, Arabic, Korean</p></center>
+    
+  </div>
+  <div class="main">
+    <center><h2>PROFILE</h2></center>
+    <center><p>As a highly skilled and experienced professional in records management, I bring a proven track record of success in orchestrating complex scheduling systems and maintaining meticulous records. With a Bachelor's Degree in Information Science (Hons.) Records Management and certification as a Certified Records Manager (CRM), I am well-equipped to optimize resource utilization, ensure compliance with industry standards, and drive organizational efficiency. My expertise in transitioning teams to digital records management systems and my commitment to precision make me an ideal candidate for the Senior Records and Scheduling Officer position. I am confident in my ability to contribute to the seamless operations and enhanced organizational efficiency of your team.</p></center>
+  </div>
+</div>
+
+<center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8IVwzeomPeM?si=R3xU_0Ltor9OjGqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+        <div class="footer">
+            <h4>© 2023 Nurliyana Putri's Resume. All Rights Reserved.</h4>
+            <h5>This website are for the purpose of assignment on HTML only.<br>Recommended browser Google Chrome.<br>Resolution 1366 X 768.</h5>
+            <h4>Last updated : </h4>
+              <p id="demo"></p>
+              <script>
+              let text = document.lastModified;
+              document.getElementById("demo").innerHTML = text;
+              </script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+<style>
+body 
+    {
+        font-family: Arial, sans-serif;
+        margin: 30;
+        background-color: #eeecda;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    nav {
+        background-color: #cdb891;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 10;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav li {
+        float: left;
+    }
+    
+    nav a {
+        display: block;
+        color: #333;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        background-color: #f7e7ce;
+        color: #333;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    
+    table, td, th {
+  border: 2px solid;
+  text-align:center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+    .footer {
+  padding: 10px;
+  text-align: center;
+  background: #cdb891;
+  color: #2e2e2e;
+}
+
+</style>
+<style>body {background-image: url(photos/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover}
+    </style>
+<body>
+    <nav>
+        <ul>
+            <b>
+                <li><a class="active" href="index.html">Homepage</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+              </b>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <center><h2>EDUCATION</h2></center>
+        <table>
+          <tr>
+            <td><center><img src="photos/tadika.jpg" alt="tadika" width="170" height="170"><img src="photos/kemas.png" alt="kemas" width="170" height="170">
+                <img src="photos/skampang.png" alt="skampang" width="170" height="170"><img src="photos/skjeram.jpg" alt="skjeram" width="170" height="170"></center></td>
+            <td>
+              <h4>PRE-SCHOOL</h4>
+              <li>Year 4 - Beaconhouse Newlands Early Years Ampang U-Thant  (2005)
+              <li>Year 5 - Beaconhouse Newlands Early Years Ampang U-Thant (2006)
+              <li>Year 6 - Tadika Kemas Nurul Izzati (2006)
+              <h4>PRIMARY SCHOOL</h4>
+              <li>Standard 1 - SK AMPANG (2008)
+              <li>Standard 2 - SK JERAM BATU 20 (2009)
+              <li>Standard 3 - SK JERAM BATU 20(2010)
+              <li>Standard 4 - SK JERAM BATU 20(2011)
+              <li>Standard 5 - SK JERAM BATU 20(2012)
+              <li>Standard 6 - SK JERAM BATU 20(2013)
+          </td>
+          </tr>
+          <tr>
+            <td><center><img src="photos/smkampang.jpg" alt="smkampang" width="170" height="170"><img src="photos/smkseafield.jpg" alt="smkseafield" width="170" height="170"><img src="photos/sambest.jpg" alt="sambest" width="170" height="170"><img src="photos/samtaj.jpg" alt="samtaj" width="170" height="170"><img src="photos/samj.jpg" alt="samj" width="170" height="170"></center></td>
+            <td>
+            <h4>SECONDARY SCHOOL</h4>
+              <li>Form 1 - SMK TAMAN TASIK AMPANG(JAN-MAR 2014)
+              <li>Form 1 - SMK SEAFIELD (MAR-DIS 2014)
+              <li>Form 2 - SAM BESTARI(JAN-MAR 2015)
+              <li>Form 2 - SAM TENGKU AMPUAN JEMAAH (APR-DIS 2015)
+              <li>Form 3 - SAM JERAM(2016)
+              <li>Form 4 - SAM JERAM(2017)
+              <li>Form 5 - SAM JERAM(2018)
+          </td>
+          </tr>
+          <tr>
+            <td><center><img src="photos/uitmrembau.jpg" alt="uitmrembau" width="250" height="200"><img src="photos/uitmpundana.jpg" alt="uitmpundana" width="250" height="200"></center></td>
+            <td>
+              <h4>TERTIARY EDUCATION</h4>
+              <li>DIPLOMA IN INFORMATION MANAGEMENT - CAMPUS UiTM REMBAU (2020-2022)</li><br>
+              <li>BACHELOR OF INFORMATION OF SCIENCE (Hons.) RECORDS MANAGEMENT - CAMPUS UiTM PUNCAK PERDANA (2022-2025)</li>
+            </td>
+            </tr>
+        </table>
+      </div>
+
+    <div class="footer">
+        <h4>© 2023 Nurliyana Putri's Resume. All Rights Reserved.</h4>
+        <h5>This website are for the purpose of assignment on HTML only.<br>Recommended browser Google Chrome.<br>Resolution 1366 X 768.</h5>
+        <h4>Last updated : </h4>
+          <p id="demo"></p>
+          <script>
+          let text = document.lastModified;
+          document.getElementById("demo").innerHTML = text;
+          </script>
+          
+      </div>
+</body>
+</html>
